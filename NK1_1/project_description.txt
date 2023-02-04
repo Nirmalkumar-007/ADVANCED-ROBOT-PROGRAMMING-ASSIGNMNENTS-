@@ -1,0 +1,22 @@
+					
+This project is ADAVNCE AND ROBOT PROGRAMMING assignment 1 is done  by Group Name - NK1 : Krishant Tharun (5168143) & Nirmal Kumar (5168055)
+
+This project is regarding the development of a hoist simulation. A hoist is a octogonal box where there are two motors x and z. Those motors can move the hoist in x and z axis in the bounds 0-max_x and 0-max_z respectively. 
+There is a command console which will get input for the user to increase o decrease the x and z axis or also to stop them. Corresponding keys will be pressed using keyboard.  
+An inspection console is used to manage the set and reset keys and reporting  the real time hoist positions on the screen.
+A watchdog process to stop the above consoles periodically and reset after 60 sec of idleness. 
+The motor x and z process recieves commands from the command console and moves the hoist alng its respective axis and sends its position coordiantes to the inspection console.
+
+A master process launces all the process at the same time.
+
+
+Inside this .zip archive you have sources archive, where you can see six folders containing the codes with a .txt file of the codes description .
+
+To unzip sources archive and install the program -
+
+source ./install.sh <pathname>
+
+secondly to run the program -
+
+./run.sh
+

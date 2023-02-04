@@ -1,0 +1,10 @@
+#!/bin/bash
+
+more -d project_description.txt
+more -d ./$X/named/g1.txt
+more -d ./$X/named/g2.txt
+more -d ./$X/named/r.txt
+more -d ./$X/named/m.txt
+more -d ./$X/unnamed/writer.txt
+more -d ./$X/unnamed/reader.txt
+more -d ./$X/unnamed/m.txt

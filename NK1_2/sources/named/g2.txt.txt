@@ -1,0 +1,8 @@
+G2 Process:
+
+	This process generates a short messages composed by a time stamp, the process identifier and a little datum identifying the message itself using a 
+							struct message()
+The messages created in a strict loop are sent to the process R. At any cycle a delay is applied before sending the message. The delay is computed as 
+							delay=high +random(low,high);
+
+This model simulates the generation of quasi-periodic messages by a sensor at varibale rate (depending on the value of offset).

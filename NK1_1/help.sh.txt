@@ -1,0 +1,9 @@
+#!/bin/bash
+
+more -d project_description.txt
+more -d ./$X/master/master.txt
+more -d ./$X/command/command.txt
+more -d ./$X/inspector/inspector.txt
+more -d ./$X/motor_x/motor_x.txt
+more -d ./$X/motor_z/motor_z.txt
+more -d ./$X/watchdog/watchdog.txt

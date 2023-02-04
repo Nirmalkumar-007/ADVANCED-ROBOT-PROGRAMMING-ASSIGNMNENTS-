@@ -1,0 +1,2 @@
+cd $X/executables
+./f

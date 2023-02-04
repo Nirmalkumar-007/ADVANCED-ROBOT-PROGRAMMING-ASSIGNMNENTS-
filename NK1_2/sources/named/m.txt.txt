@@ -1,0 +1,12 @@
+M Prcocess :
+
+
+This process is responsible to analyze the data and outputs of the form :
+
+no. of G1|G2 cycles: xx
+no. of messages received: xx
+offset delay in G1 | G2 cycles (usec): xx
+average delay (latency) between generation and reception of messages (usec): xx
+estimated bandwidth between G and R (bit/s): xx
+
+The communication between R and M is handled via named pipes. 

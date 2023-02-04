@@ -1,0 +1,15 @@
+This project is ADAVNCE AND ROBOT PROGRAMMING assignment 3 is done  by Group Name - NK1 : Krishant Tharun (5168143) & Nirmal Kumar (5168055)
+
+
+This project is based on inter process communication using named and unnamed pipes. This archive contains a .zip file where the codes for named and unnamed pipes contained in seperate folders.
+
+
+To unzip the sources archive use this command -
+
+source ./install.sh <pathname>
+
+To run the program use this command -
+
+/run.sh
+
+description of named and unnamed pipes are written in respective folders inside the sources.  

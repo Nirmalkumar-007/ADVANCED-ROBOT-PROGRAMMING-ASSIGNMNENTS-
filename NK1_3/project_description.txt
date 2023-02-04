@@ -1,0 +1,14 @@
+
+This project is ADAVNCE AND ROBOT PROGRAMMING assignment 3 is done  by Group Name - NK1 : Krishant Tharun (5168143) & Nirmal Kumar (5168055)
+
+dining philosopher problem 
+
+This problem is a concurrent control based problems where there are 5 philosophers are sitting on a circualr table with 5 forks for them to share and eat the food served in five respective bowls for each. 
+The philosophers need to take chances to eat with two forks only at each turn. Any philosopher can start first.
+
+SO basically there two states 1. thinking 2. eating.
+When the philosopher gets hungry he can pick his left annd right forks and start eating.
+After eating he should drop the both forks and get back to thinking state, so that the other philosophers can get a chance to eat. This goes on and on. 
+
+This code reduces the concept of deadlock where the philosopher picks on fork on any side and so does the others. This happens randomly and at some point the two forks will be given to the first philosopher who got hungry as a priority wise. 
+thereby when he starts to eat, the others will take the fork and be ready. When the eating of that philosopher is over, the corresponding nearest philosophers to the dropped forks will pick them and start eating. 
